@@ -37,8 +37,8 @@ const ProductCard = ({
   onAddToWishlist,
 }: Props) => {
   return (
-    <div className={` w-[${width}px] ${containerClassName}`}>
-      <div className='relative'>
+    <div className={`w-[243px] ${containerClassName || ''}`}>
+      <div className={`relative max-w-fit`}>
         <Image
           src={image}
           width={width}
