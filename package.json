@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_64f9f777d572098"
   },
   "dependencies": {
     "@types/node": "20.2.5",
@@ -35,5 +36,7 @@
     "chromatic": "^6.18.2",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.20"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "e-commerce@0.1.0"
 }
