@@ -32,7 +32,7 @@ const Button = ({
     ${className}}`}
     onClick={onClick}
   >
-    {children}
+   test chromatic changes {children}
   </button>
 );
 
